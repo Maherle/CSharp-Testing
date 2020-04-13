@@ -1,2 +1,2 @@
-# DotNetTesting
-Testing Different Aspects of Dot Net Core 3.1
+# C# Testing
+Testing Different Aspects of C#
