@@ -1,18 +1,16 @@
 ﻿using System;
 
-namespace DotNetTesting
+namespace CSharp_Testing
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var defaultClassTest = new  classes.ClassTest();
-            var paramClasstest = new classes.ClassTest(10,"Params");
-            var structTest = new classes.StructTest(3, "Struct");
+            var propertyTest = new classes.PropertyTest("Maher", "Husein");
+            propertyTest.Hours = 24;
 
-            Console.WriteLine(defaultClassTest.ToString());
-            Console.WriteLine(paramClasstest.ToString());
-            Console.WriteLine(structTest.ToString());
+            Console.WriteLine($"Time in hours: {propertyTest.Hours}");
+            Console.WriteLine($"The name is: {propertyTest.Name}");
         }
     }
 }
